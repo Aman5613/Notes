@@ -1,5 +1,9 @@
 const express = require("express");  // requring express
+const connectToDB = require("./SRC/DB/db");
 
+
+// DB connection
+connectToDB();
 
 // server create ho gya yha pe
 const app = express();
